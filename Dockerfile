@@ -1,13 +1,16 @@
 FROM node:current-alpine AS Builder
 
-RUN apk add git
+RUN apk add git curl
+
+RUN curl -sfL https://install.goreleaser.com/github.com/tj/node-prune.sh | sh -s -- -b /usr/local/bin
 
 RUN git clone https://github.com/tannerkrewson/spyfall.git /app
 
 WORKDIR /app
 
-RUN npm install
-RUN npm run build
+RUN npm install --only=production
+
+RUN /usr/local/bin/node-prune
 
 RUN rm -rf .git
 RUN rm -rf .github
