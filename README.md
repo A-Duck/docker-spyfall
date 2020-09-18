@@ -1,4 +1,7 @@
 # Docker-Spyfall
+
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/159e79153c5d4d4d90ea280acab5b50c)](https://app.codacy.com/manual/A-Duck/Docker-Spyfall?utm_source=github.com&utm_medium=referral&utm_content=A-Duck/Docker-Spyfall&utm_campaign=Badge_Grade_Dashboard)
+
 This repo provides a dockerfile for Tanner Krewson's Spyfall Server.
 
   * [Tanner's Spyfall repo](https://github.com/tannerkrewson/spyfall)
