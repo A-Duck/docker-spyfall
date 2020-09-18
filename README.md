@@ -5,7 +5,7 @@
 This repo provides a dockerfile for Tanner Krewson's Spyfall Server.
 
 *   [Tanner's Spyfall repo](https://github.com/tannerkrewson/spyfall)
-    * [Dockerhub page for this repo](https://hub.docker.com/r/aduck/spyfall)
+*   [Dockerhub page for this repo](https://hub.docker.com/r/aduck/spyfall)
 
 ## Docker Run Command
 
